@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "near-sdk-pure",
+    "near-sdk-pure-core",
+    "near-sdk-pure-macros",
+]
