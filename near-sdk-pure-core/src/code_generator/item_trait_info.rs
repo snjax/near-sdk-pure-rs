@@ -14,7 +14,7 @@ impl ItemTraitInfo {
            pub mod #mod_name {
                 use super::*;
                 use near_sdk_pure::{Gas, Balance, AccountId, Promise};
-                use std::string::ToString;
+                use alloc::string::{String, ToString};
                 #result
             }
         }
