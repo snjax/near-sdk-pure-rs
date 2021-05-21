@@ -17,7 +17,7 @@ proc-macro = true
 [dependencies]
 near-sdk-pure-core = { path = "../near-sdk-pure-core", version = "2.0.0"}
 proc-macro2 = "1.0"
-syn = {version = "=1.0.14", features = ["full", "fold", "visit"] }
+syn = {version = "1.0.14", features = ["full", "fold", "visit"] }
 quote = "1.0"
 
 

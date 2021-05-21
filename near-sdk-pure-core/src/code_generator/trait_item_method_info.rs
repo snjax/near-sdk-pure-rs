@@ -1,6 +1,6 @@
 use crate::info_extractor::{InputStructType, SerializerType, TraitItemMethodInfo};
 use quote::quote;
-use syn::export::TokenStream2;
+use proc_macro2::TokenStream as TokenStream2;
 
 impl TraitItemMethodInfo {
     /// Generate code that wraps the method.

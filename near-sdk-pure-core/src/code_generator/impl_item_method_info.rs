@@ -1,6 +1,6 @@
 use crate::info_extractor::{AttrSigInfo, ImplItemMethodInfo, InputStructType, SerializerType};
 use quote::quote;
-use syn::export::TokenStream2;
+use proc_macro2::TokenStream as TokenStream2;
 use syn::{ReturnType, Signature};
 
 impl ImplItemMethodInfo {
