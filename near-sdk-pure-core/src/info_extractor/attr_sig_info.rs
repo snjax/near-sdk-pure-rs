@@ -2,7 +2,7 @@ use crate::info_extractor::arg_info::{ArgInfo, BindgenArgType};
 use crate::info_extractor::serializer_attr::SerializerAttr;
 use crate::info_extractor::SerializerType;
 use quote::ToTokens;
-use syn::export::Span;
+use proc_macro2::Span;
 use syn::spanned::Spanned;
 use syn::{Attribute, Error, FnArg, Ident, Receiver, ReturnType, Signature};
 
